@@ -1,0 +1,119 @@
+{
+    "Description": "Program Schedule & Milestone",
+    "Phase_List": [
+        {
+            "Type": 1,
+            "Description": "Develop",
+            "BGColor": "#513B56",
+            "FGColor": "#FFFFFF"
+        },
+        {
+            "Type": 2,
+            "Description": "Testing",
+            "BGColor": "#348AA7",
+            "FGColor": "#000000"
+        },
+        {
+            "Type": 3,
+            "Description": "Release",
+            "BGColor": "#BCE784",
+            "FGColor": "#000000"
+        }
+    ],
+    "Event_List": [
+        {
+            "Type": 1,
+            "Description": "Alpla",
+            "BGColor": "#FFC75F",
+            "FGColor": "#000000"
+        },
+        {
+            "Type": 2,
+            "Description": "Beta",
+            "BGColor": "#FF9671",
+            "FGColor": "#000000"
+        },
+        {
+            "Type": 3,
+            "Description": "RC",
+            "BGColor": "#FF6F91",
+            "FGColor": "#000000"
+        },
+        {
+            "Type": 4,
+            "Description": "Release",
+            "BGColor": "#D65DB1",
+            "FGColor": "#000000"
+        }
+    ],
+    "Data": [
+        {
+            "Program": "Program 1",
+            "Index": 1,
+            "Phase": [
+                {
+                    "Type": 1,
+                    "Start": "",
+                    "End": "2022-06-01",
+                    "Hide_Description": true
+                },
+                {
+                    "Type": 2,
+                    "Start": "2022-06-01",
+                    "End": "2022-10-21",
+                    "Hide_Description": true
+                },
+                {
+                    "Type": 3,
+                    "Start": "2022-10-21",
+                    "End": "",
+                    "Hide_Description": true
+                }
+            ],
+            "Event": [
+                {
+                    "Type": 1,
+                    "Date": "2022-03-01"
+                },
+                {
+                    "Type": 2,
+                    "Date": "2022-04-01"
+                },
+                {
+                    "Type": 3,
+                    "Date": "2022-06-01"
+                },
+                {
+                    "Type": 4,
+                    "Date": "2022-10-21",
+                    "Additional Info": " (TBD)",
+                    "Additional Date Info": " (TBC)"
+                }
+            ]
+        },
+        {
+            "Program": "Program 2",
+            "Index": 2,
+            "Phase": [
+                {
+                    "Type": 1,
+                    "Start": "",
+                    "End": "",
+                    "Hide_Description": true
+                }
+            ]
+        },
+        {
+            "Program": "Program 3",
+            "Index": 3,
+            "Phase": [
+                {
+                    "Type": 1,
+                    "Start": "2022-05-04",
+                    "End": "2022-11-30",
+                    "Hide_Description": false
+                }
+            ]
+        }
+    ]
+}
